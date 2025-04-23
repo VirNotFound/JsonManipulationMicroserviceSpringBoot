@@ -34,11 +34,11 @@ A simple Spring Boot application demonstrating dynamic JSON handling using Jacks
 
 ### API Endpoints
 
-| Path              | Method | Description                                   |
-|-------------------|--------|-----------------------------------------------|
-| `/json/simpleInO`    | POST   | Echoes name & age with a custom message       |
-| `/json/complexOutput`| POST   | Constructs `status` + nested hobbies array    |
-| `/json/complexInput` | POST   | Flattens nested user/transaction data + array |
+| Path                  | Method | Description                                  |
+|-----------------------|--------|----------------------------------------------|
+| `/json/simpleInO`     | POST   | Echoes name & age with a custom message      |
+| `/json/complexOutput` | POST   | Constructs `status` + nested hobbies array   |
+| `/json/complexInput`  | POST   | Flattens nested user/transaction data + array|
 
 #### 1. `POST /json/simpleInO`
 - **Request Body**
@@ -127,4 +127,10 @@ A simple Spring Boot application demonstrating dynamic JSON handling using Jacks
 ---
 
 *Created as a learning exercise for handling JSON dynamically in Spring Boot.*
+
+---
+
+### References
+
+- [JsonNode Detailed Reference Document](https://docs.google.com/document/d/1Qvncd3WmpN3jYmU0DhYavgm7pAr2VwdfQtD38hUnNWo/edit?usp=sharing)
 
