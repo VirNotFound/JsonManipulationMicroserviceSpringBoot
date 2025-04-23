@@ -17,7 +17,7 @@ A simple Spring Boot application demonstrating dynamic JSON handling using Jacks
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/virnotfound/JsonManipulationMicroserviceSpringBoot.git
+   git clone https://github.com/VirNotFound/JsonManipulationMicroserviceSpringBoot.git
    cd JsonManipulationMicroserviceSpringBoot
    ```
 2. **Build the project**
